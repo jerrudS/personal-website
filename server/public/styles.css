@@ -1,10 +1,12 @@
 * {
   box-sizing: border-box;
-  margin: 0;
+  margin: 20px;
   padding: 0;
 }
 
 body {
+  color: #f4fffe;
+  font-family: 'Encode Sans Semi Expanded', sans-serif;
   background: url('aperture-vintage-313010.jpg') no-repeat fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
