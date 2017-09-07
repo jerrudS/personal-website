@@ -2,6 +2,7 @@ import React from 'react'
 import ReactDOM from 'react-dom'
 import HomeHeader from './components/home-header.js'
 import HomeDescription from './components/home-description.js'
+import HomeImage from './components/home-image.js'
 
 export default class App extends React.Component {
 
@@ -10,6 +11,7 @@ export default class App extends React.Component {
       <div className="container">
         <HomeHeader />
         <HomeDescription />
+        <HomeImage />
       </div>
     )
   }

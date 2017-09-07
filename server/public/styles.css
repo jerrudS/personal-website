@@ -7,7 +7,7 @@
 body {
   color: #f4fffe;
   font-family: 'Encode Sans Semi Expanded', sans-serif;
-  background: url('aperture-vintage-313010.jpg') no-repeat fixed;
+  background: url('/images/sky.jpg') no-repeat fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -20,6 +20,16 @@ h2 {
 }
 
 #description {
-  float: left;
   width: 50%;
+  float: left;
+}
+
+#jerrud-headshot {
+  float: left;
+  width: 260px;
+  height: 300px;
+  left: 50%;
+  margin-top: 100px;
+  transform: translateX(-50%);
+  border-radius: 50%;
 }
