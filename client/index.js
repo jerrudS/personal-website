@@ -6,6 +6,7 @@ import HomeImage from './components/home-image.js'
 import ProjectsButton from './components/projects-button.js'
 import BaseballButton from './components/baseball-button.js'
 import MessageButton from './components/message-button.js'
+import FooterLinks from './components/footer-links.js'
 
 export default class App extends React.Component {
 
@@ -18,6 +19,7 @@ export default class App extends React.Component {
         <ProjectsButton />
         <BaseballButton />
         <MessageButton />
+        <FooterLinks />
       </div>
     )
   }
