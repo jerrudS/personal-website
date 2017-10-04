@@ -1,19 +1,20 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import HomeHeader from './components/home-header.js'
+import Header from './components/header.js'
 import HomeDescription from './components/home-description.js'
 import HomeImage from './components/home-image.js'
 import ProjectsButton from './components/projects-button.js'
 import BaseballButton from './components/baseball-button.js'
 import MessageButton from './components/message-button.js'
 import FooterLinks from './components/footer-links.js'
+import { BrowserRouter } from 'react-router-dom'
 
 export default class App extends React.Component {
 
   render() {
     return (
       <div className="container">
-        <HomeHeader />
+        <Header />
         <HomeDescription />
         <HomeImage />
         <ProjectsButton />
@@ -26,6 +27,8 @@ export default class App extends React.Component {
 }
 
 ReactDOM.render(
-  <App />,
+  <BrowserRouter>
+    <App />
+  </BrowserRouter>,
   document.querySelector('#main')
 )
